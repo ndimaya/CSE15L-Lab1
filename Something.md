@@ -1,1 +1,1 @@
-**Bold**Whole lotta stuff and things
+**Whole lotta stuff and things**
