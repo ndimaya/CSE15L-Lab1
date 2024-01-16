@@ -7,6 +7,7 @@
 **ls with no arguments** lists the files in the current directory
 
 ![Image](ls_alone.png)
+
 **working directory:** /home
 
 **cat with no arguments** returns nothing
