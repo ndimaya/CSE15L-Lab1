@@ -36,19 +36,22 @@
 ![Image](cat_directory.png)
 
 **working directory:** /home/lecture1
-**Explination:** with the argument of a directory the 
+**Explination:** with the argument of a directory there is not an individual file that can be printed so it is stated that it is a directory
 
 **cd with a file** prints out an error stating "Not a directory"
 ![Image](cd_file.png)
 
 **working directory:** /home/lecture1/messages/en-us.txt
+**Explination:** with the argument of a file the code cannot be entered so it is stated that it is a directory
 
 **ls with a file:** returns the input file
 ![Image](ls_file.png)
 
 **working directory:** /home/lecture1/messages/en-us.txt
+**Explination:** with the argument of a file the only thing that can be listed is the file itself
 
 **cat with a file** prints out the contents of the file
 ![Image](cat_file.png)
 
 **working directory:** /home/lecture1/messages/en-us.txt
+**Explination:** with the argument of a file the contents of the file are printed
