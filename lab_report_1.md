@@ -4,10 +4,12 @@ cd with no arguments changes the current directory to the home directory
 
 
 ls with no arguments lists the files in the current directory
+
 ![Image](ls_alone.png)
 
 
 cat with no arguments returns nothing
+
 ![Image](cat_alone.png)
 
 
