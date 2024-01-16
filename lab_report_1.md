@@ -29,9 +29,9 @@
 ![Image](cd_file.png)
 
 
-ls with a file returns the input file
+**ls with a file** returns the input file
 ![Image](ls_file.png)
 
 
-cat with a file prints out the contents of the file
+**cat with a file** prints out the contents of the file
 ![Image](cat_file.png)
