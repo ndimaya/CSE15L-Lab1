@@ -1,8 +1,6 @@
 # Week 1 Lab Report
 **`cd` with no arguments** changes the current directory to the home directory
 
-
-
 ![Image](cd_alone.png)
 
 **working directory:** /home
