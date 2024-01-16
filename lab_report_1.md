@@ -23,7 +23,7 @@
 
 **Explination:** with no arguments the code returns nothing. This is an error because nothing can be read and exits the console cursor.
 
-**`cd` with directory as an argument** changes the current directory to the input directory
+**`cd` with directory as an argument** changes the current directory to the input directory ('cd lecture1')
 ![Image](cd_directory.png)
 
 **working directory:** /home/lecture1
