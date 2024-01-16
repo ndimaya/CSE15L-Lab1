@@ -30,14 +30,14 @@
 
 **Explination:** with the argument of a dirctory the code enters that directory. This is not an error.
 
-**`ls` with directory as an argument** lists the files of the input directory
+**`ls` with directory as an argument** lists the files of the input directory (`ls lecture1`)
 ![Image](ls_directory.png)
 
 **working directory:** /home/lecture1
 
 **Explination:** with the argument of a directory the code lists the files of the directory in this case "messages, Hello.class, Hello.java, and README." This is not an error.
 
-**`cat` with directory as an argument** prints that the directory is a directory as long as you are not in that directory
+**`cat` with directory as an argument** prints that the directory is a directory as long as you are not in that directory 
 ![Image](cat_directory.png)
 
 **working directory:** /home/lecture1
