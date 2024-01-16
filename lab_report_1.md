@@ -1,6 +1,6 @@
 # Week 1 Lab Report
 cd with no arguments changes the current directory to the home directory
-![Image](<img width="203" alt="cd_alone" src="https://github.com/ndimaya/CSE15L-Lab1/assets/147790616/bd0a237f-412a-42ef-a03b-4aa5a1f2be28">)
+![Image](http://url/a.png)
 
 ls with no arguments lists the files in the current directory
 
