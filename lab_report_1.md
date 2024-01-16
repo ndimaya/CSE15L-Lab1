@@ -1,6 +1,6 @@
 # Week 1 Lab Report
 cd with no arguments changes the current directory to the home directory
-![Image](http://url/a.png)
+![Image](cd_alone.png)
 
 ls with no arguments lists the files in the current directory
 
