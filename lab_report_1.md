@@ -3,33 +3,40 @@
 ![Image](cd_alone.png)
 
 **working directory:** /home
+**Explination:** with no arguments the code returns to the default of home
+
 
 **ls with no arguments** lists the files in the current directory
 
 ![Image](ls_alone.png)
 
 **working directory:** /home
+**Explination:** with no arguments the argument goes to home and lists the files in home
 
 **cat with no arguments** returns nothing
 
 ![Image](cat_alone.png)
 
 **working directory:** nothing
+**Explination:** with no arguments the code returns nothing
 
 **cd with directory as an argument** changes the current directory to the input directory
 ![Image](cd_directory.png)
 
 **working directory:** /home/lecture1
+**Explination:** with the argument of a dirctory the code enters that directory
 
 **ls with directory as an argument** lists the files of the input directory
 ![Image](ls_directory.png)
 
 **working directory:** /home/lecture1
+**Explination:** with the argument of a directory the code lists the files of the directory in this case "messages, Hello.class, Hello.java, and README."
 
 **cat with directory as an argument** prints that the directory is a directory as long as you are not in that directory
 ![Image](cat_directory.png)
 
 **working directory:** /home/lecture1
+**Explination:** with the argument of a directory the 
 
 **cd with a file** prints out an error stating "Not a directory"
 ![Image](cd_file.png)
