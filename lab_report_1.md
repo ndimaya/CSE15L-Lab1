@@ -4,7 +4,7 @@
 
 **working directory:** /home
 
-**Explination:** with no arguments the code returns to the default of home. This is not an error
+**Explination:** with no arguments the code returns to the default of home. This is not an error.
 
 
 **ls with no arguments** lists the files in the current directory
