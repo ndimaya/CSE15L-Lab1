@@ -1,2 +1,2 @@
 # Week 3 Lab Report
-![Image](Lab 2 code.png)
+![Image](Lab_2_code.png)
