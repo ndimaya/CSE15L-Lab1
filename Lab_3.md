@@ -10,9 +10,10 @@ caused by: java.lang.AssertionError: expected:<3,2,1> but was:<0>
 Failures!!!
 Tests run: 2, Failures: 1`
 
-`public void testReversed() {
-    int[] input1 = {1,2,3};
-    assertArrayEquals(new int[]{3,2,1}, ArrayExamples.reversed(input1));
+` static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
   }`
 
 **Passing**
@@ -31,3 +32,40 @@ OK (2 tests)`
     }`
 
 ![Image](Lab_3_Code.png)
+
+**Why it Works** The fix works because it copies the original list into a seperate list and then compares the numbers to see which is bigger and makes the list reversed and in proper order.
+
+**Part Two**
+source: https://www.redhat.com/sysadmin/linux-find-command
+find -iname (approximate name)
+`$find ./technical -iname *tech*
+home/technical`
+`find ./technical -iname *cal*
+home/technical`
+**Allows for finding apporximate names for files or directories if cant remember exact file.**
+
+find -ls (everything)
+`find ./technical -ls
+home/technical
+home/technical/subtech
+home/technical/subtech/subtech`
+`find ./technical -ls
+home/technical
+home/technical/subtechnical
+home/technical/subtechnical/subtech`
+**Allows for finding of everything that is within a directory.**
+
+find -type
+`find ./technical -type f
+home/technical/technical.txt`
+`find ./technical -type l
+home/technical/subtech.org`
+**Allows for finding of certain types of files, documents, directories, etc.**
+
+find -maxdepth (limits depth of search)
+`find ./technical -maxdepth 1 -iname *tech*
+home/technical`
+`find ./technical -maxdepth 2 -iname *tech*
+home/technical
+home/technical/subtechnical`
+**Allows for finding of certain files or directories within a certain range.**
