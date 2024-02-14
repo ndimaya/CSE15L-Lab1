@@ -30,4 +30,4 @@ OK (2 tests)`
     arr[arr.length - 1] = a
     }`
 
-    ![Image](Lab_3_code.png) 
+![Image](Lab_3_Code.png)
