@@ -1,7 +1,8 @@
 **Lab 7** 
 For step 4 I input the command `ssh ndimaya@ieng6.ucsd.edu` and hit `<enter>`
-[
+![Image](Lab7-Step4.PNG)
 For step 5 I input the command `git clone https://github.com/ndimaya/lab7` and hit `<enter>`
+![Image](lab7-step5.PNG)
 For step 6 I input `bash test.sh`
 For step 7 I input `vim L` `<tab>`, `<.>`, `java`, then I held the `<down arrow>` until line 44, the `<left arrow>` until I was over the 1, `r`, `2`,`<esc>`, `<shift>`, `<:>`, `wq`, `<enter>`
 For step 8 I input `bash test.sh`, `<enter>`
