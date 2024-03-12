@@ -1,8 +1,11 @@
 # Lab 7 
+---
 
 For **step 4** I input the command `ssh ndimaya@ieng6.ucsd.edu` and hit `<enter>`
 
 ![Image](Lab7-Step4.PNG)
+
+---
 
 For **step 5** I input the command `git clone https://github.com/ndimaya/lab7` and hit `<enter>`
 
