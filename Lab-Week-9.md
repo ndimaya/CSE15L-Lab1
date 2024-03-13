@@ -6,15 +6,19 @@
 1:
 
 ---
+
 ![Image](EdStem_pt1.png)
 
 ---
+
 2:
 
 ---
+
 ![Image](TA-Suggestion.png)
 
 ---
+
 3:
 
 ---
