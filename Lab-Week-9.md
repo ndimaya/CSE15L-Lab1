@@ -290,3 +290,7 @@ Fixing this line to allows us to go to the main directory and then into the lib 
 line 23 `javac -cp  /hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java` ---> `javac -cp $CPATH *.java`
 ---
 Fixing this line allows us to streamline the process of copying results of the junit tests.
+
+# Part 2
+---
+The second of this quarter was geniuinly very interesting to me. I loved learning all about VIM and being able to edit files straight from the command line. I have been working on some projects for the game dev club and learning about git add, commit and push really helped me out specifically for those projects. I really liked that we did not have to go to the online website everytime we wanted to push or commit anything!
