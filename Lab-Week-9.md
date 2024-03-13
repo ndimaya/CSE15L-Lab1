@@ -3,6 +3,20 @@
 # Part 1
 
 ---
+1:
+---
+![Image](EdStem_pt1.png)
+---
+2:
+---
+![Image](TA-Suggestion.png)
+---
+3:
+---
+![Image](Working_grade.sh.png)
+---
+**Bug Description**: The bash script was trying to run the junit tests from the grading area directory. The errors were coming from trying to run the tests without knowing the keywords used in junit. We had to correct the CPATH first go home and then into the junit tests.
+---
 4:
 ---
 ![Image](File-Directory.png)
