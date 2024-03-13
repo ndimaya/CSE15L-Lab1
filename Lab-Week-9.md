@@ -9,7 +9,8 @@
 ---
 File grade.sh:
 
-`rm -rf student-submission
+```
+rm -rf student-submission
 rm -rf grading-area
 
 mkdir grading-area
@@ -37,4 +38,5 @@ then
   exit 1
 fi
 
-java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > junit-output.txt`
+java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > junit-output.txt
+```
