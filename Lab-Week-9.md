@@ -4,23 +4,34 @@
 
 ---
 1:
+
 ---
 ![Image](EdStem_pt1.png)
+
 ---
 2:
+
 ---
 ![Image](TA-Suggestion.png)
+
 ---
 3:
+
 ---
 ![Image](Working_grade.sh.png)
+
 ---
 **Bug Description**: The bash script was trying to run the junit tests from the grading area directory. The errors were coming from trying to run the tests without knowing the keywords used in junit. We had to correct the CPATH first go home and then into the junit tests.
+
 ---
+
 4:
+
 ---
 ![Image](File-Directory.png)
+
 ---
+
 **File grade.sh:**
 
 ```
@@ -276,18 +287,24 @@ public class TestListExamples {
 }
 ```
 **Command Lines Run to get Bug**
+
 ---
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
 
 **What to edit to fix the bug**
+
 ---
 In grade.sh:
+
 ---
 line 22 `CPATH='/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'` ---> `CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'`
+
 ---
 Fixing this line to allows us to go to the main directory and then into the lib directory with the junit tests before we run the tests.
+
 ---
 line 23 `javac -cp  /hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java` ---> `javac -cp $CPATH *.java`
+
 ---
 Fixing this line allows us to streamline the process of copying results of the junit tests.
 
