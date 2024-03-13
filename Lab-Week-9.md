@@ -261,9 +261,12 @@ public class TestListExamples {
   }
 }
 ```
-**Command Lines Run to get Bug**:
+**Command Lines Run to get Bug**
+---
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
+
 **What to edit to fix the bug**
+---
 In grade.sh:
 line 22 `CPATH='/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'` ---> `CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'`
 line 23 `javac -cp  /hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java` ---> `javac -cp $CPATH *.java`
