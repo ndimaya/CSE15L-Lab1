@@ -270,5 +270,9 @@ public class TestListExamples {
 In grade.sh:
 ---
 line 22 `CPATH='/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'` ---> `CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'`
-----
+---
+Fixing this line to allows us to go to the main directory and then into the lib directory with the junit tests before we run the tests.
+---
 line 23 `javac -cp  /hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java` ---> `javac -cp $CPATH *.java`
+---
+Fixing this line allows us to streamline the process of copying results of the junit tests.
