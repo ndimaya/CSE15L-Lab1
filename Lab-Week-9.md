@@ -268,5 +268,7 @@ public class TestListExamples {
 **What to edit to fix the bug**
 ---
 In grade.sh:
+---
 line 22 `CPATH='/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'` ---> `CPATH='.;../lib/hamcrest-core-1.3.jar;../lib/junit-4.13.2.jar'`
+----
 line 23 `javac -cp  /hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java` ---> `javac -cp $CPATH *.java`
